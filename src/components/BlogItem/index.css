@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.imageUrl {
+  height: 150px;
+  width: 250px;
+}
+.avatarUrl {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+.blogs-list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+
+  border-style: ridge;
+  height: 180px;
+}
+.blogs-list-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 200px;
+  padding: 10px;
+}
+.blog-avatar-author-card {
+  display: flex;
+  padding: 20px;
+}
+.blog-list-heading {
+  font-size: 18px;
+  margin-bottom: 4px;
+}
+.blog-list-paragraph {
+  font-size: 14px;
+  margin: 0px;
+}
